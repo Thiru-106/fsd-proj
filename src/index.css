@@ -1,0 +1,49 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --card: #1c1c26;
+  --border: #2a2a38;
+  --accent: #7c6dfa;
+  --accent2: #fa6d8a;
+  --accent3: #6dfabc;
+  --text: #f0f0fa;
+  --muted: #7a7a99;
+  --gold: #f5c842;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), #5a4fd6);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}

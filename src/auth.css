@@ -1,0 +1,31 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle, #1c1c26, #0a0a0f);
+}
+
+.auth-card {
+  background: var(--surface);
+  padding: 2.5rem;
+  border-radius: 16px;
+  width: 380px;
+  border: 1px solid var(--border);
+}
+
+.auth-card h2 {
+  margin-bottom: 1rem;
+}
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+}
